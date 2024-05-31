@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Register = () => {
     return (
         <div className='r-container'>
-            <span className='title'>Bem Vindo</span>
+            <span className='title'>Bem vindo</span>
             <span className='sub-title'>Registro</span>
             <form>
                 <input type="text" placeholder='Digite o Nome' />

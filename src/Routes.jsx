@@ -8,7 +8,7 @@ export function AppRoutes() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="*" element={<Register />} /> {/* Rota padrão para redirecionar */}
+        <Route path="*" element={<Login />} /> {/* Rota padrão para redirecionar */}
       </Routes>
     </Router>
   );
