@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -11,7 +11,7 @@ const Login = () => {
                 <input type="password" placeholder='Digite a Senha' />
                 <button>Acessar</button>
             </form>
-            <p>Você ainda não tem conta? Registre-se</p>
+            <p>Você ainda não tem conta? <Link to="/Register">Registre-se</Link></p>
         </div>
     )
 };
