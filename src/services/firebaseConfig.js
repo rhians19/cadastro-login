@@ -1,7 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyCLaRtXNleBIntDH6h3xhXVqA2MAfHX5NQ",
   authDomain: "cadastro-login-65e66.firebaseapp.com",
